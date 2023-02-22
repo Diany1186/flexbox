@@ -59,6 +59,11 @@
 .videoSobre-video {
     flex-grow: 2;
 }
+
+.videoSobre-sobre-list {
+    flex-grow: 2;
+    flex-shrink: 2;
+}
 /*Estilo para responsive*/
 
 @media (max-width:768px) {
@@ -105,5 +110,9 @@
 
     .headerPrincipal-nav-link-app {
         order : -1;
+    }
+
+    .videoSobre .container {
+        flex-direction: column;
     }
 }
